@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./style.scss";
 import InfiniteScroll from "react-infinite-scroll-component";
-import ClipLoader from "react-spinners/ClipLoader";
 
 const ImageBoard = ({ query }) => {
   const [data, setData] = useState({});
@@ -48,8 +47,7 @@ const ImageBoard = ({ query }) => {
 
   const handleId = () => {
     // const randomNumber = Math.floor(Math.random() * (3000000 - 2777777 + 1) ) + 27777777
-
-  }
+  };
 
   return (
     <div className="imageBoard">
