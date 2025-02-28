@@ -35,7 +35,7 @@ const Navbar = ({ setQuery }) => {
               <a
                 className="nav-link active"
                 aria-current="page"
-                href="https://768b3557907e6c4479.gradio.live/"
+                href="https://a4a23189aefd01631f.gradio.live/"
               >
                 Generater Ai Image
               </a>
